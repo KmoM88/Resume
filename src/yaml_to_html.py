@@ -49,6 +49,7 @@ def render_html(data, template_path):
         contact=contact,
         skills=skills,
         pdf_url=data.get('pdf_url', ''),
+        cv_url=data.get('cv_url', ''),
     )
 
 def save_html(output_path, html_content):

@@ -149,12 +149,13 @@ li{
 .subtitle{
   font-size: 8pt;
   color: #4699B9;
+  margin-bottom: 0.05in;
 }
 
 /*** categorial blocks ***/
 
 .main-block{
-  margin-top: 0.1in;
+  margin-top: 0.025in;
 }
 
 #main h2{
@@ -397,9 +398,18 @@ li{
   line-height: 1.5;
 }
 
-#skills ul{
-  margin: 0.05in 0 0.15in;
-  padding: 0;
+#skills h4 {
+    margin-bottom: 0.2em; /* Reduce space below category title */
+}
+
+#skills ul {
+    margin-top: 0; /* Remove extra space above the list */
+    margin-bottom: 0.5em; /* Adjust space below the list */
+    padding-left: 1em; /* Keep indentation for list items */
+}
+
+#skills li {
+    margin-bottom: 0.2em; /* Reduce space between list items */
 }
 
 #skills ul li .fas {
@@ -426,8 +436,8 @@ li{
 
 /* Summary Section */
 #summary {
-    margin: 0.2in 0 0 0.55in; /* Ajusta el margen para alinearlo con el diseño */
-    font-size: 5pt;
+    margin: 0.1in 0 0 0.55in; /* Ajusta el margen para alinearlo con el diseño */
+    font-size: 4.5pt;
     line-height: 1;
     color: #555;
     max-width: 6.4in; /* Alineado con el ancho del contenido principal */

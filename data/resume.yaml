@@ -92,10 +92,9 @@ projects:
     end: '2024'
     start: '2022'
   details:
-  - DevOps engineer for embedded/OS software
-  - Pipelines optimization
-  - Embedded environments maintainance
-  - Gitlab / Python / Docker / Bash
+  - Led the DevOps processes for embedded and operating system software used in low-Earth-orbit satellites.
+  - Developed and optimized CI/CD pipelines using GitLab, Python, Docker, and Bash for constrained environments.
+  - Maintained infrastructure for automated testing and deployment in Linux-based embedded systems.
   place: Satellogic
   url: https://satellogic.com/
   title: Low-Earth-Orbit Satellite Constellation
@@ -103,8 +102,9 @@ projects:
     end: '2022'
     start: '2017'
   details:
-  - Nuclear Reactor RA-10 - IyC - CNEA
-  - Critical system design
+  - Participated in the design and implementation of critical systems for the RA-10 nuclear research reactor.
+  - Developed electronic safety systems and monitoring infrastructure as part of the Instrumentation & Control team.
+  - Contributed to long-term reliability and compliance of high-integrity electronic subsystems in regulated environments.
   place: CNEA-IyC
   url: https://www.argentina.gob.ar/cnea
   title: Nuclear Reactor RA-10
@@ -112,11 +112,11 @@ projects:
     end: '2013'
     start: '2011'
   details:
-  - Signal conditioning for Geiger Counter detector
-  - Microchip PIC μController
+  - Designed and implemented Geiger Counter signal conditioning hardware
+  - Programmed data acquisition with Microchip PIC microcontroller.
   place: UNC-FCEFyN
   url: https://fcefyn.unc.edu.ar/
-  title: 'Thesis Electronic Engineer:'
+  title: 'Electronic Engineer Thesis: Geiger Counter'
 skills:
   Languages & Scripting:
   - Bash
@@ -147,6 +147,7 @@ subtitle:
 - DevOps Engineer
 - Software Development
 pdf_url: https://cv.federicorossi.com.ar/RossiFederico-CV.pdf
+cv_url: https://cv.federicorossi.com.ar
 summary: >
   Electronic Engineer with solid experience as a DevOps Engineer in mission-critical environments. 
   Expert in CI/CD pipeline automation, containerization, cloud & on premise infrastructure, 
