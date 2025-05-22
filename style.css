@@ -423,3 +423,17 @@ li{
   font-weight: 400;
   font-style: normal;
 }
+
+/* Summary Section */
+#summary {
+    margin: 0.2in 0 0 0.55in; /* Ajusta el margen para alinearlo con el diseño */
+    font-size: 5pt;
+    line-height: 1;
+    color: #555;
+    max-width: 6.4in; /* Alineado con el ancho del contenido principal */
+}
+
+#summary p {
+    margin: 0;
+    text-align: justify;
+}

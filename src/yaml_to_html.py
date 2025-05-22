@@ -42,6 +42,7 @@ def render_html(data, template_path):
     return template.render(
         name=data.get('name', ''),
         subtitle=subtitle,
+        sumary=data.get('summary', ''),
         experiences=experiences,
         projects=projects,
         education=education,

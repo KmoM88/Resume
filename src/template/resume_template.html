@@ -15,6 +15,9 @@
             <h1>{{ name }}</h1>
             <span class="subtitle">{{ subtitle|safe }}</span>
         </header>
+         <section id="summary">
+            <p>{{ sumary }}</p>
+        </section>
         <section class="main-block">
             <h2><i class="fa fa-suitcase"></i> Experiences</h2>
             {% for experience in experiences %}

@@ -53,19 +53,27 @@ experiences:
 - date:
     end: '2024'
     start: '2022'
-  details: []
+  details:
+  - text: Led the automation and maintenance of CI/CD pipelines for satellite software using GitLab and Python.
+  - text: Deployed and managed containerized services in embedded Linux environments.
+  - text: Collaborated with firmware and software teams to streamline release processes.
+  - text: Developed internal tools for build/test automation in constrained environments.
   place: Satellogic
   place_url: https://satellogic.com/
   title: DevOps Engineer
 - date:
     year: '2022'
-  details: []
+  details:
+  - text: Built CI/CD workflows for data processing pipelines using Azure DevOps and Docker.
+  - text: Maintained data platforms using Azure Databricks and Data Lake for analytics workloads.
   place: Analytics Town
   place_url: http://www.analyticstown.com/es/inicio/
   title: DevOps Engineer
 - date:
     year: '2021'
-  details: []
+  details:
+  - text: Developed backend services using Spring Boot and Django within a microservices architecture.
+  - text: Collaborated on full-stack development and REST API integration.
   place: Teczara
   place_url: https://teczara.com/
   title: Web Developer
@@ -73,14 +81,8 @@ experiences:
     end: '2021'
     start: '2016'
   details:
-  - text: Critical Facility System Operator
-    url: ''
-  - text: Critical Facility Radioprotection Officer
-    url: ''
-  - text: Safety Systems Design
-    url: ''
-  - text: Embedded Electronics
-    url: ''
+  - text: Operated and maintained critical infrastructure at a nuclear research facility.
+  - text: Designed and implemented electronic systems for safety and monitoring.
   place: CNEA
   place_url: https://www.argentina.gob.ar/cnea
   title: Electronic & Critical System Design
@@ -103,7 +105,6 @@ projects:
   details:
   - Nuclear Reactor RA-10 - IyC - CNEA
   - Critical system design
-  - C# / E3.suken / QA
   place: CNEA-IyC
   url: https://www.argentina.gob.ar/cnea
   title: Nuclear Reactor RA-10
@@ -112,39 +113,41 @@ projects:
     start: '2011'
   details:
   - Signal conditioning for Geiger Counter detector
-  - User interface
   - Microchip PIC μController
   place: UNC-FCEFyN
   url: https://fcefyn.unc.edu.ar/
   title: 'Thesis Electronic Engineer:'
 skills:
-  Backend:
-  - C
+  Languages & Scripting:
+  - Bash
   - Python
-  - NodeJS
-  - TypeScript
-  Cloud Engineer:
-  - AWS
-  - GCP
-  - Azure
-  DevOps:
-  - Linux
+  - C
+  CI/CD & Automation:
+  - GitLab CI
+  - GitHub Actions
+  Containers & Orchestration:
   - Docker
   - Kubernetes
-  - Container Orchestration
-  - Gitlab Pipelines
+  Cloud Platforms:
+  - AWS (EC2, S3, EKS, IAM)
+  - Azure
+  Monitoring & Logging:
+  - Prometheus
+  - Grafana
   Electronics/Critical Systems:
   - Embedded Systems
   - Electronic Design
   - System Reliability
-  Frontend:
-  - Angular
-  - Ionic
-  - HTML
-  - CSS
-  - JavaScript
+  OS & Networking:
+  - Linux (Debian/Ubuntu)
+  - Nginx / Apache
+  - SSH / VPN / DNS
 subtitle:
 - Electronic Engineer
 - DevOps Engineer
 - Software Development
 pdf_url: https://cv.federicorossi.com.ar/RossiFederico-CV.pdf
+summary: >
+  Electronic Engineer with solid experience as a DevOps Engineer in mission-critical environments. 
+  Expert in CI/CD pipeline automation, containerization, cloud & on premise infrastructure, 
+  and Linux systems. Strong background in embedded electronics and critical systems.
