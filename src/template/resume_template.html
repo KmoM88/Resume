@@ -1,0 +1,158 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>{{ name }} Resume</title>
+    <link rel="stylesheet" type="text/css" href="dep/normalize.css/normalize.css" />
+    <link rel="stylesheet" type="text/css" href="dep/Font-Awesome-master/web-fonts-with-css/css/fontawesome-all.min.css" />
+    <link rel="icon" href="./resumee.png">
+    <link rel="stylesheet" type="text/css" href="style.css">
+</head>
+<body>
+    <section id="main">
+        <header id="title">
+            <h1>{{ name }}</h1>
+            <span class="subtitle">{{ subtitle|safe }}</span>
+        </header>
+        <section class="main-block">
+            <h2><i class="fa fa-suitcase"></i> Experiences</h2>
+            {% for experience in experiences %}
+            <section class="blocks">
+                <div class="date">
+                    {% if experience.date.start and experience.date.end %}
+                        <span>{{ experience.date.end }}</span><span>{{ experience.date.start }}</span>
+                    {% elif experience.date.year %}
+                        <span>{{ experience.date.year }}</span>
+                    {% endif %}
+                </div>
+                <div class="decorator"></div>
+                <div class="details">
+                    <header>
+                        <h3>{{ experience.title }}</h3>
+                        {% if experience.place_url %}
+                            <span class="place"><a href="{{ experience.place_url }}">{{ experience.place }}</a></span>
+                        {% else %}
+                            <span class="place">{{ experience.place }}</span>
+                        {% endif %}
+                    </header>
+                    <div>
+                        {% if experience.details and experience.details|length > 0 %}
+                        <ul>
+                        {% for detail in experience.details %}
+                            <li>
+                                {% if detail.url %}
+                                <a href="{{ detail.url }}">{{ detail.text }}</a>
+                                {% else %}
+                                {{ detail.text }}
+                                {% endif %}
+                            </li>
+                        {% endfor %}
+                        </ul>
+                        {% endif %}
+                    </div>
+                </div>
+            </section>
+            {% endfor %}
+        </section>
+        <section class="main-block">
+            <h2><i class="fa fa-folder-open"></i> Selected Projects</h2>
+            {% for project in projects %}
+            <section class="blocks">
+                <div class="date">
+                    {% if project.date.start and project.date.end %}
+                        <span>{{ project.date.end }}</span><span>{{ project.date.start }}</span>
+                    {% elif project.date.year %}
+                        <span>{{ project.date.year }}</span>
+                    {% endif %}
+                </div>
+                <div class="decorator"></div>
+                <div class="details">
+                    <header>
+                        <h3>{{ project.title }}</h3>
+                        {% if project.url %}
+                            <span class="place"><a href="{{ project.url }}">{{ project.place }}</a></span>
+                        {% else %}
+                            <span class="place">{{ project.place }}</span>
+                        {% endif %}
+                    </header>
+                    <div>
+                        {% if project.details and project.details|length > 0 %}
+                        <ul>
+                            {% for detail in project.details %}
+                            <li>{{ detail }}</li>
+                            {% endfor %}
+                        </ul>
+                        {% endif %}
+                    </div>
+                </div>
+            </section>
+            {% endfor %}
+        </section>
+        <section class="main-block concise">
+            <h2><i class="fa fa-graduation-cap"></i> Education</h2>
+            {% for education in education %}
+            <section class="blocks">
+                <div class="date">
+                    {% if education.date.start and education.date.end %}
+                        <span>{{ education.date.end }}</span><span>{{ education.date.start }}</span>
+                    {% elif education.date.year %}
+                        <span>{{ education.date.year }}</span>
+                    {% endif %}
+                </div>
+                <div class="decorator"></div>
+                <div class="details">
+                    <header>
+                        <h3>{{ education.title }}</h3>
+                        {% if education.place_url %}
+                            <span class="place"><a href="{{ education.place_url }}">{{ education.place }}</a></span>
+                        {% else %}
+                            <span class="place">{{ education.place }}</span>
+                        {% endif %}
+                        {% if education.location %}
+                            <span class="location">{{ education.location }}</span>
+                        {% endif %}
+                    </header>
+                </div>
+            </section>
+            {% endfor %}
+        </section>
+    </section>
+    <aside id="sidebar">
+        <div class="side-block" id="contact">
+            <h1>Contact Info</h1>
+            <ul>
+                {% for icon, item in contact.items() %}
+                    <li>
+                        <i class="{{ item.icon }}"></i>
+                        {% if item.url %}
+                            <a href="{{ item.url }}">{{ item.text }}</a>
+                        {% else %}
+                            {{ item.text }}
+                        {% endif %}
+                    </li>
+                {% endfor %}
+            </ul>
+        </div>
+        <div class="side-block" id="skills">
+            <h3>Skills</h3>
+            {% for category, items in skills.items() %}
+                <h4>{{ category }}</h4>
+                <ul>
+                    {% for skill in items %}
+                    <li>{{ skill }}</li>
+                    {% endfor %}
+                </ul>
+            {% endfor %}
+        </div>
+        <div class="side-block" id="skills">
+        <h3>
+            PDF
+        </h3>
+        {% if pdf_url %}
+            <span><a href="{{ pdf_url }}">Rossi Federico CV</a></span>
+        {% endif %}
+        </div>
+    </aside>
+</body>
+</html>

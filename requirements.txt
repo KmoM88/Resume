@@ -1,0 +1,5 @@
+PyYAML
+Jinja2
+markdown
+requests
+beautifulsoup4

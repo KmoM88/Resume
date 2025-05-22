@@ -1,0 +1,150 @@
+contact:
+  fa fa-envelope:
+    icon: fa fa-envelope
+    text: federicorossi888@gmail.com
+    url: mailto:federicorossi888@gmail.com
+  fa fa-globe:
+    icon: fa fa-globe
+    text: federicorossi.com.ar
+    url: https://federicorossi.com.ar
+  fa fa-location-arrow:
+    icon: fa fa-location-arrow
+    text: Esmeralda 448 Cba, Argentina
+    url: https://maps.app.goo.gl/H1U6xcKNyxGEHDpW7
+  fa fa-phone:
+    icon: fa fa-phone
+    text: (+54)-11-58816603
+    url: ''
+  fab fa-github:
+    icon: fab fa-github
+    text: Github
+    url: https://github.com/KmoM88
+  fab fa-gitlab:
+    icon: fab fa-gitlab
+    text: Gitlab
+    url: https://gitlab.com/KmoM88
+  fab fa-linkedin:
+    icon: fab fa-linkedin
+    text: Linkedin
+    url: https://www.linkedin.com/in/federicodanielrossimescolatti/
+education:
+- date:
+    year: '2021'
+  place: UNC-FCEFyN
+  place_url: https://fcefyn.unc.edu.ar/
+  title: DevOps Certification
+- date:
+    year: '2016'
+  place: UNSaM-Instituto Sábato
+  place_url: https://www.isabato.edu.ar/
+  title: Basic Concepts on Neutron Scattering
+- date:
+    year: '2016'
+  place: IUBA
+  place_url: https://www.iua.edu.ar/
+  title: Critical System Design
+- date:
+    end: '2013'
+    start: '2007'
+  place: UNC-FCEFyN
+  place_url: https://fcefyn.unc.edu.ar/
+  title: Electronic Engineer
+experiences:
+- date:
+    end: '2024'
+    start: '2022'
+  details: []
+  place: Satellogic
+  place_url: https://satellogic.com/
+  title: DevOps Engineer
+- date:
+    year: '2022'
+  details: []
+  place: Analytics Town
+  place_url: http://www.analyticstown.com/es/inicio/
+  title: DevOps Engineer
+- date:
+    year: '2021'
+  details: []
+  place: Teczara
+  place_url: https://teczara.com/
+  title: Web Developer
+- date:
+    end: '2021'
+    start: '2016'
+  details:
+  - text: Critical Facility System Operator
+    url: ''
+  - text: Critical Facility Radioprotection Officer
+    url: ''
+  - text: Safety Systems Design
+    url: ''
+  - text: Embedded Electronics
+    url: ''
+  place: CNEA
+  place_url: https://www.argentina.gob.ar/cnea
+  title: Electronic & Critical System Design
+name: Federico Daniel Rossi Mescolatti
+projects:
+- date:
+    end: '2024'
+    start: '2022'
+  details:
+  - DevOps engineer for embedded/OS software
+  - Pipelines optimization
+  - Embedded environments maintainance
+  - Gitlab / Python / Docker / Bash
+  place: Satellogic
+  url: https://satellogic.com/
+  title: Low-Earth-Orbit Satellite Constellation
+- date:
+    end: '2022'
+    start: '2017'
+  details:
+  - Nuclear Reactor RA-10 - IyC - CNEA
+  - Critical system design
+  - C# / E3.suken / QA
+  place: CNEA-IyC
+  url: https://www.argentina.gob.ar/cnea
+  title: Nuclear Reactor RA-10
+- date:
+    end: '2013'
+    start: '2011'
+  details:
+  - Signal conditioning for Geiger Counter detector
+  - User interface
+  - Microchip PIC μController
+  place: UNC-FCEFyN
+  url: https://fcefyn.unc.edu.ar/
+  title: 'Thesis Electronic Engineer:'
+skills:
+  Backend:
+  - C
+  - Python
+  - NodeJS
+  - TypeScript
+  Cloud Engineer:
+  - AWS
+  - GCP
+  - Azure
+  DevOps:
+  - Linux
+  - Docker
+  - Kubernetes
+  - Container Orchestration
+  - Gitlab Pipelines
+  Electronics/Critical Systems:
+  - Embedded Systems
+  - Electronic Design
+  - System Reliability
+  Frontend:
+  - Angular
+  - Ionic
+  - HTML
+  - CSS
+  - JavaScript
+subtitle:
+- Electronic Engineer
+- DevOps Engineer
+- Software Development
+pdf_url: https://cv.federicorossi.com.ar/RossiFederico-CV.pdf
