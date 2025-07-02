@@ -130,6 +130,7 @@ skills:
   - Kubernetes
   Cloud Platforms:
   - AWS (EC2, S3, EKS, IAM)
+  - GCP
   - Azure
   Monitoring & Logging:
   - Prometheus
