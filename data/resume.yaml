@@ -65,7 +65,6 @@ experiences:
     year: '2022'
   details:
   - text: Built CI/CD workflows for data processing pipelines using Azure DevOps and Docker.
-  - text: Maintained data platforms using Azure Databricks and Data Lake for analytics workloads.
   place: Analytics Town
   place_url: http://www.analyticstown.com/es/inicio/
   title: DevOps Engineer
