@@ -60,8 +60,8 @@ def main():
     yaml_file = 'data/resume.yaml'
     yaml_file_esp = 'data/resume-esp.yaml'
     template_file = 'src/template/resume_template.html'
-    output_file = 'static/index.html'
-    output_file_esp = 'static/index-esp.html'
+    output_file = 'docs/index.html'
+    output_file_esp = 'docs/index-esp.html'
 
     data = load_yaml(yaml_file)
     data_esp = load_yaml(yaml_file_esp)
