@@ -57,13 +57,18 @@ def save_html(output_path, html_content):
         file.write(html_content)
 
 def main():
-    yaml_file = 'data/resume-esp.yaml'
+    yaml_file = 'data/resume.yaml'
+    yaml_file_esp = 'data/resume-esp.yaml'
     template_file = 'src/template/resume_template.html'
-    output_file = 'index-esp.html'
+    output_file = 'static/index.html'
+    output_file_esp = 'static/index-esp.html'
 
     data = load_yaml(yaml_file)
+    data_esp = load_yaml(yaml_file_esp)
     html_content = render_html(data, template_file)
+    html_content_esp = render_html(data_esp, template_file)
     save_html(output_file, html_content)
+    save_html(output_file_esp, html_content_esp)
 
 if __name__ == '__main__':
     main()
