@@ -6,7 +6,7 @@
     <title>{{ name }} Resume</title>
     <link rel="stylesheet" type="text/css" href="dep/normalize.css/normalize.css" />
     <link rel="stylesheet" type="text/css" href="dep/Font-Awesome-master/web-fonts-with-css/css/fontawesome-all.min.css" />
-    <link rel="icon" href="./resumee.png">
+    <link rel="icon" href="./resume.png">
     <link rel="stylesheet" type="text/css" href="style.css">
 </head>
 <body>
@@ -14,6 +14,11 @@
         <header id="title">
             <h1>{{ name }}</h1>
             <span class="subtitle">{{ subtitle|safe }}</span>
+            <br>
+            <span class="lang-switch">
+                <a href="/index.html">English</a> |
+                <a href="/index-esp.html">Español</a>
+            </span>
         </header>
          <section id="summary">
             <p>{{ sumary }}</p>

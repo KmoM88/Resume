@@ -57,9 +57,9 @@ def save_html(output_path, html_content):
         file.write(html_content)
 
 def main():
-    yaml_file = 'data/resume.yaml'
+    yaml_file = 'data/resume-esp.yaml'
     template_file = 'src/template/resume_template.html'
-    output_file = 'index.html'
+    output_file = 'index-esp.html'
 
     data = load_yaml(yaml_file)
     html_content = render_html(data, template_file)
