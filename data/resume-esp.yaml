@@ -128,7 +128,7 @@ skills:
   - Docker
   - Kubernetes
   Plataformas Cloud:
-  - AWS (EC2, S3, EKS, IAM)
+  - AWS
   - GCP
   - Azure
   Monitoreo y Logging:
