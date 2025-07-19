@@ -1,0 +1,97 @@
+# Secciones específicas en inglés
+subtitle:
+  - Electronic Engineer
+  - DevOps Engineer
+  - Software Development
+summary: >
+  Electronic Engineer with solid experience as a DevOps Engineer in mission-critical environments.
+  Expert in CI/CD pipeline automation, containerization, cloud & on premise infrastructure,
+  and Linux systems. Strong background in embedded electronics and critical systems.
+education:
+  - date:
+      year: '2021'
+    place: UNC-FCEFyN
+    place_url: https://fcefyn.unc.edu.ar/
+    title: DevOps Certification
+  - date:
+      year: '2016'
+    place: UNSaM-Instituto Sábato
+    place_url: https://www.isabato.edu.ar/
+    title: Basic Concepts on Neutron Scattering
+  - date:
+      year: '2016'
+    place: IUBA
+    place_url: https://www.iua.edu.ar/
+    title: Critical System Design
+  - date:
+      end: '2013'
+      start: '2007'
+    place: UNC-FCEFyN
+    place_url: https://fcefyn.unc.edu.ar/
+    title: Electronic Engineer
+experiences:
+  - date:
+      end: '2024'
+      start: '2022'
+    details:
+      - text: Led the automation and maintenance of CI/CD pipelines for satellite software using GitLab and Python.
+      - text: Deployed and managed containerized services in embedded Linux environments.
+      - text: Collaborated with firmware and software teams to streamline release processes.
+      - text: Developed internal tools for build/test automation in constrained environments.
+    place: Satellogic
+    place_url: https://satellogic.com/
+    title: DevOps Engineer
+  - date:
+      year: '2022'
+    details:
+      - text: Built CI/CD workflows for data processing pipelines using Azure DevOps and Docker.
+    place: Analytics Town
+    place_url: http://www.analyticstown.com/es/inicio/
+    title: DevOps Engineer
+  - date:
+      year: '2021'
+    details:
+      - text: Developed backend services using Spring Boot and Django within a microservices architecture.
+      - text: Collaborated on full-stack development and REST API integration.
+    place: Teczara
+    place_url: https://teczara.com/
+    title: Web Developer
+  - date:
+      end: '2021'
+      start: '2016'
+    details:
+      - text: Operated and maintained critical infrastructure at a nuclear research facility.
+      - text: Designed and implemented electronic systems for safety and monitoring.
+    place: CNEA
+    place_url: https://www.argentina.gob.ar/cnea
+    title: Electronic & Critical System Design
+projects:
+  - date:
+      end: '2024'
+      start: '2022'
+    details:
+      - Led the DevOps processes for embedded and operating system software used in low-Earth-orbit satellites.
+      - Developed and optimized CI/CD pipelines using GitLab, Python, Docker, and Bash for constrained environments.
+      - Maintained infrastructure for automated testing and deployment in Linux-based embedded systems.
+    place: Satellogic
+    url: https://satellogic.com/
+    title: Low-Earth-Orbit Satellite Constellation
+  - date:
+      end: '2022'
+      start: '2017'
+    details:
+      - Participated in the design and implementation of critical systems for the RA-10 nuclear research reactor.
+      - Developed electronic safety systems and monitoring infrastructure as part of the Instrumentation & Control team.
+      - Contributed to long-term reliability and compliance of high-integrity electronic subsystems in regulated environments.
+    place: CNEA-IyC
+    url: https://www.argentina.gob.ar/cnea/investigacion-y-desarrollo
+    title: Nuclear Reactor RA-10
+  - date:
+      end: '2013'
+      start: '2011'
+    details:
+      - Designed and implemented Geiger Counter signal conditioning hardware
+      - Programmed data acquisition with Microchip PIC microcontroller.
+    place: UNC-FCEFyN
+    url: https://fcefyn.unc.edu.ar/
+    title: 'Electronic Engineer Thesis: Geiger Counter'

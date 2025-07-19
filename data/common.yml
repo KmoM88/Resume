@@ -1,0 +1,63 @@
+# Secciones comunes para ambos idiomas
+contact:
+  fa fa-envelope:
+    icon: fa fa-envelope
+    text: federicorossi888@gmail.com
+    url: mailto:federicorossi888@gmail.com
+  fa fa-globe:
+    icon: fa fa-globe
+    text: federicorossi.com.ar
+    url: https://federicorossi.com.ar
+  fa fa-location-arrow:
+    icon: fa fa-location-arrow
+    text: Esmeralda 448 Cba, Argentina
+    url: https://maps.app.goo.gl/H1U6xcKNyxGEHDpW7
+  fa fa-phone:
+    icon: fa fa-phone
+    text: (+54)-11-58816603
+    url: ''
+  fab fa-github:
+    icon: fab fa-github
+    text: Github
+    url: https://github.com/KmoM88
+  fab fa-gitlab:
+    icon: fab fa-gitlab
+    text: Gitlab
+    url: https://gitlab.com/KmoM88
+  fab fa-linkedin:
+    icon: fab fa-linkedin
+    text: Linkedin
+    url: https://www.linkedin.com/in/federicodanielrossimescolatti/
+skills:
+  Languages & Scripting:
+  - Bash
+  - Python
+  - C
+  - JS
+  CI/CD & Automation:
+  - GitLab CI
+  - GitHub Actions
+  Containers & Orchestration:
+  - Docker
+  - Kubernetes
+  - Helm
+  Cloud Platforms:
+  - AWS
+  - GCP
+  - Azure
+  Monitoring & Logging:
+  - Prometheus
+  - Grafana
+  - ELK Stack
+  Electronics/Critical Systems:
+  - Embedded Systems
+  - Electronic Design
+  - System Reliability
+  OS & Networking:
+  - Linux (Debian/Ubuntu)
+  - Nginx
+  - SSH / VPN / DNS
+pdf_url: RossiFederico-CV.pdf
+pdf_url_esp: RossiFederico-CV-esp.pdf
+cv_url: https://cv.federicorossi.com.ar
+name: Federico Daniel Rossi Mescolatti

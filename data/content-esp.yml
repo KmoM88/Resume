@@ -1,0 +1,97 @@
+# Secciones específicas en español
+subtitle:
+  - Ingeniero Electrónico
+  - Ingeniero DevOps
+  - Desarrollo de Software
+summary: >
+  Ingeniero Electrónico con sólida experiencia como Ingeniero DevOps en entornos de misión crítica.
+  Experto en automatización de pipelines CI/CD, contenerización, infraestructura cloud y on-premise,
+  y sistemas Linux. Fuerte formación en electrónica embebida y sistemas críticos.
+education:
+  - date:
+      year: '2021'
+    place: UNC-FCEFyN
+    place_url: https://fcefyn.unc.edu.ar/
+    title: Certificación DevOps
+  - date:
+      year: '2016'
+    place: UNSaM-Instituto Sábato
+    place_url: https://www.isabato.edu.ar/
+    title: Conceptos Básicos de Dispersión de Neutrones
+  - date:
+      year: '2016'
+    place: IUBA
+    place_url: https://www.iua.edu.ar/
+    title: Diseño de Sistemas Críticos
+  - date:
+      end: '2013'
+      start: '2007'
+    place: UNC-FCEFyN
+    place_url: https://fcefyn.unc.edu.ar/
+    title: Ingeniero Electrónico
+experiences:
+  - date:
+      end: '2024'
+      start: '2022'
+    details:
+      - text: Lideré la automatización y el mantenimiento de pipelines CI/CD para software satelital usando GitLab y Python.
+      - text: Desplegué y gestioné servicios contenerizados en entornos Linux embebidos.
+      - text: Colaboré con equipos de firmware y software para optimizar procesos de lanzamiento.
+      - text: Desarrollé herramientas internas para automatización de build/test en entornos restringidos.
+    place: Satellogic
+    place_url: https://satellogic.com/
+    title: Ingeniero DevOps
+  - date:
+      year: '2022'
+    details:
+      - text: Construí flujos de trabajo CI/CD para pipelines de procesamiento de datos usando Azure DevOps y Docker.
+    place: Analytics Town
+    place_url: http://www.analyticstown.com/es/inicio/
+    title: Ingeniero DevOps
+  - date:
+      year: '2021'
+    details:
+      - text: Desarrollé servicios backend usando Spring Boot y Django en una arquitectura de microservicios.
+      - text: Colaboré en desarrollo full-stack e integración de APIs REST.
+    place: Teczara
+    place_url: https://teczara.com/
+    title: Desarrollador Web
+  - date:
+      end: '2021'
+      start: '2016'
+    details:
+      - text: Operé y mantuve infraestructura crítica en una instalación de investigación nuclear.
+      - text: Diseñé e implementé sistemas electrónicos para seguridad y monitoreo.
+    place: CNEA
+    place_url: https://www.argentina.gob.ar/cnea
+    title: Diseño Electrónico y de Sistemas Críticos
+projects:
+  - date:
+      end: '2024'
+      start: '2022'
+    details:
+      - Lideré los procesos DevOps para software embebido y de sistemas operativos usados en satélites en órbita baja.
+      - Desarrollé y optimicé pipelines CI/CD usando GitLab, Python, Docker y Bash para entornos restringidos.
+      - Mantuve infraestructura para pruebas y despliegue automatizado en sistemas embebidos basados en Linux.
+    place: Satellogic
+    url: https://satellogic.com/
+    title: Constelación de Satélites en Órbita Baja
+  - date:
+      end: '2022'
+      start: '2017'
+    details:
+      - Participé en el diseño e implementación de sistemas críticos para el reactor nuclear RA-10.
+      - Desarrollé sistemas electrónicos de seguridad e infraestructura de monitoreo como parte del equipo de Instrumentación y Control.
+      - Contribuí a la confiabilidad a largo plazo y cumplimiento de subsistemas electrónicos de alta integridad en entornos regulados.
+    place: CNEA-IyC
+    url: https://www.argentina.gob.ar/cnea/investigacion-y-desarrollo
+    title: Reactor Nuclear RA-10
+  - date:
+      end: '2013'
+      start: '2011'
+    details:
+      - Diseñé e implementé hardware de acondicionamiento de señal para contador Geiger
+      - Programé adquisición de datos con microcontrolador Microchip PIC.
+    place: UNC-FCEFyN
+    url: https://fcefyn.unc.edu.ar/
+    title: 'Tesis de Ingeniería Electrónica: Contador Geiger'
