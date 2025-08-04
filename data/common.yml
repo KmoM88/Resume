@@ -33,7 +33,6 @@ skills:
   - Bash
   - Python
   - C
-  - JS
   CI/CD & Automation:
   - GitLab CI
   - GitHub Actions
@@ -49,6 +48,11 @@ skills:
   - Prometheus
   - Grafana
   - ELK Stack
+  AI & LLMs:
+  - TensorFlow
+  - LangChain
+  - HuggingFace
+  - Ollama
   Electronics/Critical Systems:
   - Embedded Systems
   - Electronic Design
