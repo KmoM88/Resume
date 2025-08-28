@@ -42,17 +42,9 @@ skills:
   - Helm
   Cloud Platforms:
   - AWS
-  - GCP
-  - Azure
   Monitoring & Logging:
   - Prometheus
   - Grafana
-  - ELK Stack
-  AI & LLMs:
-  - TensorFlow
-  - LangChain
-  - HuggingFace
-  - Ollama
   Electronics/Critical Systems:
   - Embedded Systems
   - Electronic Design
