@@ -31,6 +31,17 @@ education:
     title: Electronic Engineer
 experiences:
   - date:
+      end: '-'
+      start: '2025'
+    details:
+      - text: Supported infrastructure and Kubernetes clusters for robotics simulation and platform development.
+      - text: Worked with containerized applications across development and testing environments.
+      - text: Helped automate infrastructure tasks using scripting and Infrastructure as Code tools.
+      - text: Monitored systems and cluster health to support stable and scalable platforms.
+    place: Ekumen
+    place_url: https://ekumenlabs.com/
+    title: DevOps Engineer
+  - date:
       end: '2024'
       start: '2022'
     details:
