@@ -53,13 +53,6 @@ experiences:
     place_url: https://satellogic.com/
     title: DevOps Engineer
   - date:
-      year: '2022'
-    details:
-      - text: Built CI/CD workflows for data processing pipelines using Azure DevOps and Docker.
-    place: Analytics Town
-    place_url: http://www.analyticstown.com/es/inicio/
-    title: DevOps Engineer
-  - date:
       year: '2021'
     details:
       - text: Developed backend services using Spring Boot and Django within a microservices architecture.

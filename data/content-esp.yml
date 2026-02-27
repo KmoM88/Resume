@@ -53,13 +53,6 @@ experiences:
     place_url: https://satellogic.com/
     title: Ingeniero DevOps
   - date:
-      year: '2022'
-    details:
-      - text: Construí flujos de trabajo CI/CD para pipelines de procesamiento de datos usando Azure DevOps y Docker.
-    place: Analytics Town
-    place_url: http://www.analyticstown.com/es/inicio/
-    title: Ingeniero DevOps
-  - date:
       year: '2021'
     details:
       - text: Desarrollé servicios backend usando Spring Boot y Django en una arquitectura de microservicios.
